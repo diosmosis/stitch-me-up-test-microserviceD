@@ -12,7 +12,7 @@ services:
       - .:/microserviceD
     working_dir: /microserviceD
     environment:
-      - "MICROSERVICED_ENDPOINT=http://microserviceC"
+      - "MICROSERVICEC_ENDPOINT=http://microserviceC"
     command: [npm, start]
 
 dependencies:
